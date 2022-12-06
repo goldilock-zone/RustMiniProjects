@@ -82,7 +82,8 @@ fn main() {
     println!("rect can hold rect2: {}", rect.can_hold(&rect2));
 
     //associated functions
-    let rect3
+    let rect3: Rectangle = Rectangle::square(30);
+    println!("rect3: {:#?}", rect3);
 }
 
 fn build_user(email: String, username: String) -> User{
